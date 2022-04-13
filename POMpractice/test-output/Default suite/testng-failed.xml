@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.test.DownloadPageTest">
+        <methods>
+          <include name="intialisation1"/>
+          <include name="tearDown"/>
+          <include name="windowhandle"/>
+        </methods>
+      </class> <!-- com.test.DownloadPageTest -->
+      <class name="com.test.UsefulLinkTest">
+        <methods>
+          <include name="windowHandles"/>
+          <include name="intialisation1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.test.UsefulLinkTest -->
+      <class name="com.test.LoginpageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="intialisation1"/>
+          <include name="checkLogin"/>
+        </methods>
+      </class> <!-- com.test.LoginpageTest -->
+      <class name="com.test.DashboardpageTest">
+        <methods>
+          <include name="checkUserPage"/>
+          <include name="windowHandale"/>
+          <include name="intialisation1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.test.DashboardpageTest -->
+      <class name="com.test.operatorTest">
+        <methods>
+          <include name="intialisation1"/>
+          <include name="tearDown"/>
+          <include name="technnicalWord"/>
+          <include name="checkcontact"/>
+          <include name="webTablehandlimg"/>
+        </methods>
+      </class> <!-- com.test.operatorTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

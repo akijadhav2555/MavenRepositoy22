@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="18" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="97622" started-at="2022-04-13T11:41:06Z" finished-at="2022-04-13T11:42:44Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="97622" started-at="2022-04-13T11:41:06Z" finished-at="2022-04-13T11:42:44Z">
+      <class name="com.test.UserpgeTest">
+        <test-method status="PASS" signature="intialisation1()[pri:0, instance:com.test.UserpgeTest@42dafa95]" name="intialisation1" is-config="true" duration-ms="5717" started-at="2022-04-13T11:41:06Z" finished-at="2022-04-13T11:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisation1 -->
+        <test-method status="PASS" signature="genderChecking()[pri:0, instance:com.test.UserpgeTest@42dafa95]" name="genderChecking" duration-ms="1256" started-at="2022-04-13T11:41:12Z" finished-at="2022-04-13T11:41:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genderChecking -->
+        <test-method status="FAIL" signature="popuphandling()[pri:0, instance:com.test.UserpgeTest@42dafa95]" name="popuphandling" duration-ms="152" started-at="2022-04-13T11:41:13Z" finished-at="2022-04-13T11:41:13Z">
+          <exception class="org.openqa.selenium.NoAlertPresentException">
+            <message>
+              <![CDATA[no such alert
+  (Session info: chrome=100.0.4896.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-53PPSM5', ip: '192.168.43.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\om\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:60243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3076372d6cee6246fe131088d62c5f62]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=100.0.4896.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-53PPSM5', ip: '192.168.43.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\om\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:60243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3076372d6cee6246fe131088d62c5f62
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
+at com.pages.UsersPage.popuphandling(UsersPage.java:91)
+at com.test.UserpgeTest.popuphandling(UserpgeTest.java:53)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popuphandling -->
+        <test-method status="PASS" signature="webTableHandling1()[pri:0, instance:com.test.UserpgeTest@42dafa95]" name="webTableHandling1" duration-ms="192" started-at="2022-04-13T11:41:13Z" finished-at="2022-04-13T11:41:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTableHandling1 -->
+        <test-method status="PASS" signature="webtblehndling()[pri:0, instance:com.test.UserpgeTest@42dafa95]" name="webtblehndling" duration-ms="938" started-at="2022-04-13T11:41:14Z" finished-at="2022-04-13T11:41:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webtblehndling -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.UserpgeTest@42dafa95]" name="tearDown" is-config="true" duration-ms="955" started-at="2022-04-13T11:41:14Z" finished-at="2022-04-13T11:41:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.UserpgeTest -->
+      <class name="com.test.UsefulLinkTest">
+        <test-method status="PASS" signature="intialisation1()[pri:0, instance:com.test.UsefulLinkTest@2f686d1f]" name="intialisation1" is-config="true" duration-ms="5637" started-at="2022-04-13T11:42:30Z" finished-at="2022-04-13T11:42:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisation1 -->
+        <test-method status="PASS" signature="contentcheck()[pri:0, instance:com.test.UsefulLinkTest@2f686d1f]" name="contentcheck" duration-ms="270" started-at="2022-04-13T11:42:36Z" finished-at="2022-04-13T11:42:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentcheck -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.UsefulLinkTest@2f686d1f]" name="tearDown" is-config="true" duration-ms="761" started-at="2022-04-13T11:42:36Z" finished-at="2022-04-13T11:42:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="intialisation1()[pri:0, instance:com.test.UsefulLinkTest@2f686d1f]" name="intialisation1" is-config="true" duration-ms="5208" started-at="2022-04-13T11:42:37Z" finished-at="2022-04-13T11:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisation1 -->
+        <test-method status="PASS" signature="windowHandles()[pri:0, instance:com.test.UsefulLinkTest@2f686d1f]" name="windowHandles" duration-ms="1147" started-at="2022-04-13T11:42:42Z" finished-at="2022-04-13T11:42:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowHandles -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.UsefulLinkTest@2f686d1f]" name="tearDown" is-config="true" duration-ms="767" started-at="2022-04-13T11:42:43Z" finished-at="2022-04-13T11:42:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.UsefulLinkTest -->
+      <class name="com.test.DownloadPageTest">
+        <test-method status="PASS" signature="intialisation1()[pri:0, instance:com.test.DownloadPageTest@6500df86]" name="intialisation1" is-config="true" duration-ms="5581" started-at="2022-04-13T11:41:15Z" finished-at="2022-04-13T11:41:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisation1 -->
+        <test-method status="PASS" signature="seleniumCountCheck()[pri:0, instance:com.test.DownloadPageTest@6500df86]" name="seleniumCountCheck" duration-ms="336" started-at="2022-04-13T11:41:21Z" finished-at="2022-04-13T11:41:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleniumCountCheck -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.DownloadPageTest@6500df86]" name="tearDown" is-config="true" duration-ms="803" started-at="2022-04-13T11:41:21Z" finished-at="2022-04-13T11:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="intialisation1()[pri:0, instance:com.test.DownloadPageTest@6500df86]" name="intialisation1" is-config="true" duration-ms="5589" started-at="2022-04-13T11:41:22Z" finished-at="2022-04-13T11:41:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisation1 -->
+        <test-method status="PASS" signature="windowhandle()[pri:0, instance:com.test.DownloadPageTest@6500df86]" name="windowhandle" duration-ms="1910" started-at="2022-04-13T11:41:28Z" finished-at="2022-04-13T11:41:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowhandle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.DownloadPageTest@6500df86]" name="tearDown" is-config="true" duration-ms="845" started-at="2022-04-13T11:41:30Z" finished-at="2022-04-13T11:41:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.DownloadPageTest -->
+      <class name="com.test.LoginpageTest">
+        <test-method status="PASS" signature="intialisation1()[pri:0, instance:com.test.LoginpageTest@589838eb]" name="intialisation1" is-config="true" duration-ms="5083" started-at="2022-04-13T11:41:01Z" finished-at="2022-04-13T11:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisation1 -->
+        <test-method status="FAIL" signature="testPage()[pri:1, instance:com.test.LoginpageTest@589838eb]" name="testPage" duration-ms="1" started-at="2022-04-13T11:42:44Z" finished-at="2022-04-13T11:42:44Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-53PPSM5', ip: '192.168.43.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-53PPSM5', ip: '192.168.43.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+at com.pages.LoginPage.validLogin(LoginPage.java:48)
+at com.test.LoginpageTest.testPage(LoginpageTest.java:42)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPage -->
+        <test-method status="FAIL" signature="checkLogin()[pri:2, instance:com.test.LoginpageTest@589838eb]" name="checkLogin" duration-ms="1" started-at="2022-04-13T11:42:44Z" finished-at="2022-04-13T11:42:44Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-53PPSM5', ip: '192.168.43.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-53PPSM5', ip: '192.168.43.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
+at com.test.LoginpageTest.checkLogin(LoginpageTest.java:51)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.LoginpageTest@589838eb]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-04-13T11:42:44Z" finished-at="2022-04-13T11:42:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.LoginpageTest -->
+      <class name="com.test.DashboardpageTest">
+        <test-method status="PASS" signature="intialisation1()[pri:0, instance:com.test.DashboardpageTest@4cf777e8]" name="intialisation1" is-config="true" duration-ms="5015" started-at="2022-04-13T11:42:10Z" finished-at="2022-04-13T11:42:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisation1 -->
+        <test-method status="PASS" signature="checkOperatorPage()[pri:0, instance:com.test.DashboardpageTest@4cf777e8]" name="checkOperatorPage" duration-ms="213" started-at="2022-04-13T11:42:15Z" finished-at="2022-04-13T11:42:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOperatorPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.DashboardpageTest@4cf777e8]" name="tearDown" is-config="true" duration-ms="729" started-at="2022-04-13T11:42:15Z" finished-at="2022-04-13T11:42:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="intialisation1()[pri:0, instance:com.test.DashboardpageTest@4cf777e8]" name="intialisation1" is-config="true" duration-ms="5684" started-at="2022-04-13T11:42:16Z" finished-at="2022-04-13T11:42:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisation1 -->
+        <test-method status="PASS" signature="checkUserPage()[pri:0, instance:com.test.DashboardpageTest@4cf777e8]" name="checkUserPage" duration-ms="256" started-at="2022-04-13T11:42:22Z" finished-at="2022-04-13T11:42:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUserPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.DashboardpageTest@4cf777e8]" name="tearDown" is-config="true" duration-ms="803" started-at="2022-04-13T11:42:22Z" finished-at="2022-04-13T11:42:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="intialisation1()[pri:0, instance:com.test.DashboardpageTest@4cf777e8]" name="intialisation1" is-config="true" duration-ms="5442" started-at="2022-04-13T11:42:23Z" finished-at="2022-04-13T11:42:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisation1 -->
+        <test-method status="PASS" signature="windowHandale()[pri:0, instance:com.test.DashboardpageTest@4cf777e8]" name="windowHandale" duration-ms="1006" started-at="2022-04-13T11:42:28Z" finished-at="2022-04-13T11:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowHandale -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.DashboardpageTest@4cf777e8]" name="tearDown" is-config="true" duration-ms="761" started-at="2022-04-13T11:42:29Z" finished-at="2022-04-13T11:42:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.DashboardpageTest -->
+      <class name="com.test.AddUserTest">
+        <test-method status="PASS" signature="intialisation1()[pri:0, instance:com.test.AddUserTest@402a079c]" name="intialisation1" is-config="true" duration-ms="5755" started-at="2022-04-13T11:41:30Z" finished-at="2022-04-13T11:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisation1 -->
+        <test-method status="PASS" signature="adduser()[pri:0, instance:com.test.AddUserTest@402a079c]" name="adduser" duration-ms="3874" started-at="2022-04-13T11:41:36Z" finished-at="2022-04-13T11:41:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adduser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.AddUserTest@402a079c]" name="tearDown" is-config="true" duration-ms="794" started-at="2022-04-13T11:41:40Z" finished-at="2022-04-13T11:41:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.AddUserTest -->
+      <class name="com.test.operatorTest">
+        <test-method status="PASS" signature="intialisation1()[pri:0, instance:com.test.operatorTest@59ec2012]" name="intialisation1" is-config="true" duration-ms="5217" started-at="2022-04-13T11:41:41Z" finished-at="2022-04-13T11:41:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisation1 -->
+        <test-method status="PASS" signature="CheckWhatasppContactOnly()[pri:0, instance:com.test.operatorTest@59ec2012]" name="CheckWhatasppContactOnly" duration-ms="253" started-at="2022-04-13T11:41:46Z" finished-at="2022-04-13T11:41:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckWhatasppContactOnly -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.operatorTest@59ec2012]" name="tearDown" is-config="true" duration-ms="755" started-at="2022-04-13T11:41:46Z" finished-at="2022-04-13T11:41:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="intialisation1()[pri:0, instance:com.test.operatorTest@59ec2012]" name="intialisation1" is-config="true" duration-ms="6851" started-at="2022-04-13T11:41:47Z" finished-at="2022-04-13T11:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisation1 -->
+        <test-method status="PASS" signature="checkcontact()[pri:0, instance:com.test.operatorTest@59ec2012]" name="checkcontact" duration-ms="284" started-at="2022-04-13T11:41:54Z" finished-at="2022-04-13T11:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkcontact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.operatorTest@59ec2012]" name="tearDown" is-config="true" duration-ms="774" started-at="2022-04-13T11:41:54Z" finished-at="2022-04-13T11:41:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="intialisation1()[pri:0, instance:com.test.operatorTest@59ec2012]" name="intialisation1" is-config="true" duration-ms="6228" started-at="2022-04-13T11:41:55Z" finished-at="2022-04-13T11:42:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisation1 -->
+        <test-method status="PASS" signature="technnicalWord()[pri:0, instance:com.test.operatorTest@59ec2012]" name="technnicalWord" duration-ms="461" started-at="2022-04-13T11:42:01Z" finished-at="2022-04-13T11:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- technnicalWord -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.operatorTest@59ec2012]" name="tearDown" is-config="true" duration-ms="747" started-at="2022-04-13T11:42:02Z" finished-at="2022-04-13T11:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="intialisation1()[pri:0, instance:com.test.operatorTest@59ec2012]" name="intialisation1" is-config="true" duration-ms="5858" started-at="2022-04-13T11:42:02Z" finished-at="2022-04-13T11:42:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisation1 -->
+        <test-method status="PASS" signature="webTablehandlimg()[pri:0, instance:com.test.operatorTest@59ec2012]" name="webTablehandlimg" duration-ms="986" started-at="2022-04-13T11:42:08Z" finished-at="2022-04-13T11:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTablehandlimg -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.operatorTest@59ec2012]" name="tearDown" is-config="true" duration-ms="761" started-at="2022-04-13T11:42:09Z" finished-at="2022-04-13T11:42:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.operatorTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

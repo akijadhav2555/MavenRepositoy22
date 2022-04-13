@@ -1,0 +1,4 @@
+# Created at 2022-04-13T17:11:00.146
+Boot Manifest-JAR contains absolute paths in classpath 'D:\HandsonSession\POMpractice\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

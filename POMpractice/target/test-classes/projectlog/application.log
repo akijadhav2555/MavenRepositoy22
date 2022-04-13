@@ -1,0 +1,70 @@
+2022-04-13 17:11:01,607  INFO [main] TestBase:12 - reading a property file for a keybrowser
+2022-04-13 17:11:01,610  INFO [main] TestBase:23 - value assigned for the key is found as>>chrome
+2022-04-13 17:11:01,610  INFO [main] TestBase:31 - intialising browser
+2022-04-13 17:11:04,454  INFO [main] TestBase:12 - reading a property file for a keyurl
+2022-04-13 17:11:04,455  INFO [main] TestBase:23 - value assigned for the key is found as>>file:///E:/selenium/javabykiran-Selenium-Softwares/Offline%20Website/index.html
+2022-04-13 17:11:06,692  INFO [main] TestBase:12 - reading a property file for a keybrowser
+2022-04-13 17:11:06,693  INFO [main] TestBase:23 - value assigned for the key is found as>>chrome
+2022-04-13 17:11:06,693  INFO [main] TestBase:31 - intialising browser
+2022-04-13 17:11:08,179  INFO [main] TestBase:12 - reading a property file for a keyurl
+2022-04-13 17:11:08,180  INFO [main] TestBase:23 - value assigned for the key is found as>>file:///E:/selenium/javabykiran-Selenium-Softwares/Offline%20Website/index.html
+2022-04-13 17:11:15,927  INFO [main] TestBase:12 - reading a property file for a keybrowser
+2022-04-13 17:11:15,928  INFO [main] TestBase:23 - value assigned for the key is found as>>chrome
+2022-04-13 17:11:15,928  INFO [main] TestBase:31 - intialising browser
+2022-04-13 17:11:17,410  INFO [main] TestBase:12 - reading a property file for a keyurl
+2022-04-13 17:11:17,411  INFO [main] TestBase:23 - value assigned for the key is found as>>file:///E:/selenium/javabykiran-Selenium-Softwares/Offline%20Website/index.html
+2022-04-13 17:11:22,647  INFO [main] TestBase:12 - reading a property file for a keybrowser
+2022-04-13 17:11:22,649  INFO [main] TestBase:23 - value assigned for the key is found as>>chrome
+2022-04-13 17:11:22,649  INFO [main] TestBase:31 - intialising browser
+2022-04-13 17:11:24,221  INFO [main] TestBase:12 - reading a property file for a keyurl
+2022-04-13 17:11:24,222  INFO [main] TestBase:23 - value assigned for the key is found as>>file:///E:/selenium/javabykiran-Selenium-Softwares/Offline%20Website/index.html
+2022-04-13 17:11:30,992  INFO [main] TestBase:12 - reading a property file for a keybrowser
+2022-04-13 17:11:30,992  INFO [main] TestBase:23 - value assigned for the key is found as>>chrome
+2022-04-13 17:11:30,993  INFO [main] TestBase:31 - intialising browser
+2022-04-13 17:11:32,610  INFO [main] TestBase:12 - reading a property file for a keyurl
+2022-04-13 17:11:32,611  INFO [main] TestBase:23 - value assigned for the key is found as>>file:///E:/selenium/javabykiran-Selenium-Softwares/Offline%20Website/index.html
+2022-04-13 17:11:41,417  INFO [main] TestBase:12 - reading a property file for a keybrowser
+2022-04-13 17:11:41,418  INFO [main] TestBase:23 - value assigned for the key is found as>>chrome
+2022-04-13 17:11:41,419  INFO [main] TestBase:31 - intialising browser
+2022-04-13 17:11:42,923  INFO [main] TestBase:12 - reading a property file for a keyurl
+2022-04-13 17:11:42,924  INFO [main] TestBase:23 - value assigned for the key is found as>>file:///E:/selenium/javabykiran-Selenium-Softwares/Offline%20Website/index.html
+2022-04-13 17:11:47,643  INFO [main] TestBase:12 - reading a property file for a keybrowser
+2022-04-13 17:11:47,644  INFO [main] TestBase:23 - value assigned for the key is found as>>chrome
+2022-04-13 17:11:47,644  INFO [main] TestBase:31 - intialising browser
+2022-04-13 17:11:49,092  INFO [main] TestBase:12 - reading a property file for a keyurl
+2022-04-13 17:11:49,093  INFO [main] TestBase:23 - value assigned for the key is found as>>file:///E:/selenium/javabykiran-Selenium-Softwares/Offline%20Website/index.html
+2022-04-13 17:11:55,552  INFO [main] TestBase:12 - reading a property file for a keybrowser
+2022-04-13 17:11:55,553  INFO [main] TestBase:23 - value assigned for the key is found as>>chrome
+2022-04-13 17:11:55,553  INFO [main] TestBase:31 - intialising browser
+2022-04-13 17:11:57,034  INFO [main] TestBase:12 - reading a property file for a keyurl
+2022-04-13 17:11:57,035  INFO [main] TestBase:23 - value assigned for the key is found as>>file:///E:/selenium/javabykiran-Selenium-Softwares/Offline%20Website/index.html
+2022-04-13 17:12:02,988  INFO [main] TestBase:12 - reading a property file for a keybrowser
+2022-04-13 17:12:02,989  INFO [main] TestBase:23 - value assigned for the key is found as>>chrome
+2022-04-13 17:12:02,990  INFO [main] TestBase:31 - intialising browser
+2022-04-13 17:12:04,496  INFO [main] TestBase:12 - reading a property file for a keyurl
+2022-04-13 17:12:04,496  INFO [main] TestBase:23 - value assigned for the key is found as>>file:///E:/selenium/javabykiran-Selenium-Softwares/Offline%20Website/index.html
+2022-04-13 17:12:10,594  INFO [main] TestBase:12 - reading a property file for a keybrowser
+2022-04-13 17:12:10,595  INFO [main] TestBase:23 - value assigned for the key is found as>>chrome
+2022-04-13 17:12:10,596  INFO [main] TestBase:31 - intialising browser
+2022-04-13 17:12:12,024  INFO [main] TestBase:12 - reading a property file for a keyurl
+2022-04-13 17:12:12,025  INFO [main] TestBase:23 - value assigned for the key is found as>>file:///E:/selenium/javabykiran-Selenium-Softwares/Offline%20Website/index.html
+2022-04-13 17:12:16,552  INFO [main] TestBase:12 - reading a property file for a keybrowser
+2022-04-13 17:12:16,553  INFO [main] TestBase:23 - value assigned for the key is found as>>chrome
+2022-04-13 17:12:16,554  INFO [main] TestBase:31 - intialising browser
+2022-04-13 17:12:18,119  INFO [main] TestBase:12 - reading a property file for a keyurl
+2022-04-13 17:12:18,119  INFO [main] TestBase:23 - value assigned for the key is found as>>file:///E:/selenium/javabykiran-Selenium-Softwares/Offline%20Website/index.html
+2022-04-13 17:12:23,297  INFO [main] TestBase:12 - reading a property file for a keybrowser
+2022-04-13 17:12:23,298  INFO [main] TestBase:23 - value assigned for the key is found as>>chrome
+2022-04-13 17:12:23,299  INFO [main] TestBase:31 - intialising browser
+2022-04-13 17:12:24,788  INFO [main] TestBase:12 - reading a property file for a keyurl
+2022-04-13 17:12:24,789  INFO [main] TestBase:23 - value assigned for the key is found as>>file:///E:/selenium/javabykiran-Selenium-Softwares/Offline%20Website/index.html
+2022-04-13 17:12:30,506  INFO [main] TestBase:12 - reading a property file for a keybrowser
+2022-04-13 17:12:30,507  INFO [main] TestBase:23 - value assigned for the key is found as>>chrome
+2022-04-13 17:12:30,508  INFO [main] TestBase:31 - intialising browser
+2022-04-13 17:12:31,976  INFO [main] TestBase:12 - reading a property file for a keyurl
+2022-04-13 17:12:31,977  INFO [main] TestBase:23 - value assigned for the key is found as>>file:///E:/selenium/javabykiran-Selenium-Softwares/Offline%20Website/index.html
+2022-04-13 17:12:37,175  INFO [main] TestBase:12 - reading a property file for a keybrowser
+2022-04-13 17:12:37,176  INFO [main] TestBase:23 - value assigned for the key is found as>>chrome
+2022-04-13 17:12:37,177  INFO [main] TestBase:31 - intialising browser
+2022-04-13 17:12:38,638  INFO [main] TestBase:12 - reading a property file for a keyurl
+2022-04-13 17:12:38,638  INFO [main] TestBase:23 - value assigned for the key is found as>>file:///E:/selenium/javabykiran-Selenium-Softwares/Offline%20Website/index.html
